@@ -19,7 +19,7 @@ Instalaciones previas:
 2. [NodeJS](https://nodejs.org/en/).
 3. [Angular CLI](https://angular.io/cli).
 
-Iniciar el servidor Apache y importar la base de datos que se encuentra en la carpeta *public/rickandmorty.sql*. En el archivo *config/db.js* se pueden cambiar los datos de conexión a la base de datos, en caso que sea necesario.
+Iniciar el servidor Apache y importar la base de datos que se encuentra en la carpeta *public/rickandmorty.sql*. En el archivo *config/db.js* se deben cambiar los datos de conexión a la base de datos, en caso que sea necesario.
 
 En la carpeta raíz, se encuentra el backEnd cuya instalación de todas las dependencias se debe realizar a través de Npm:
 
@@ -28,7 +28,7 @@ En la carpeta raíz, se encuentra el backEnd cuya instalación de todas las depe
     npm install
 ```
 
-Al acabar la instalación, iniciamos el servidor en <http://localhost:3000> con el siguiente comando:
+Al acabar la instalación, iniciamos el servidor en *http://localhost:3000* con el siguiente comando:
 
 ```shell
     # test o ejecutar commandos
@@ -44,7 +44,7 @@ A continuación es necesario instalar todos los módulos de Angular para el Fron
     npm install
 ```
 
-Iniciamos el FrontEnd en <http://localhost:4200>:
+Iniciamos el FrontEnd en *http://localhost:4200* para poder acceder a la página web:
 
 ```shell
     # test o ejecutar commandos
