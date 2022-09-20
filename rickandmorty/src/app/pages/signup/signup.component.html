@@ -1,0 +1,13 @@
+<div class="container">
+
+    <app-back-home url="/"></app-back-home>
+    <div class="contain">
+        <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+            <input type="email" name="email" id="email" formControlName="user" placeholder="Email">
+            <input type="password" name="password" id="password" formControlName="password" placeholder="Contraseña">
+            <button class="bt">Registrar</button>
+        </form>
+        <p class="error msg" *ngIf="errorMessage && errorMessage !==''">{{errorMessage}}</p>
+        <p class="message msg" *ngIf="message && message !==''">{{message}}</p>
+    </div>
+</div>

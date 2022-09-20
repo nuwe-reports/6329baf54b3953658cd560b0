@@ -1,0 +1,16 @@
+.container {
+    background-image: url('/assets/404.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.text {
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    margin: 0 auto;
+}

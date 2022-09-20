@@ -1,0 +1,150 @@
+.container {
+    background-image: url('/assets/background-home.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    position: fixed;
+    overflow-y: scroll;
+}
+
+.logout {
+    color: hsl(0, 0%, 100%);
+    text-align: right;
+    padding-right: 50px;
+    text-decoration: underline;
+}
+
+.logout span {
+    cursor: pointer;
+}
+
+.wrap {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: 75px 50px;
+}
+
+.card {
+    width: 250px;
+    height: 320px;
+    box-shadow: 0px 0px 5px 4px hsl(101, 83%, 66%);
+    color: hsl(0, 0%, 100%);
+    margin: 15px;
+}
+
+.card-header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: hsla(172, 82%, 11%, 0.6);
+}
+
+h4 {
+    width: 75%;
+    margin-right: 5px;
+    font-size: 0.9em;
+}
+
+h4 a {
+    width: auto;
+    color: hsl(0, 0%, 100%);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.characterImage {
+    width: 250px;
+    height: 250px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+    cursor: pointer;
+}
+
+.arrows {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row nowrap;
+}
+
+.pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page:first-child,
+.page:last-child {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid hsla(172, 82%, 11%, 0.6);
+    background-color: hsl(101, 83%, 66%);
+}
+
+.page:first-child span,
+.page:last-child span {
+    color: hsla(172, 82%, 11%, 0.6);
+}
+
+.page:first-child:hover span,
+.page:last-child:hover span {
+    color: hsl(0, 0%, 100%);
+}
+
+.page:first-child:hover,
+.page:last-child:hover {
+    box-shadow: 0px 0px 5px 4px hsl(101, 83%, 66%);
+    background-color: hsla(172, 82%, 11%, 0.6);
+}
+
+.page {
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid hsla(172, 82%, 11%, 0.6);
+    background-color: hsl(101, 83%, 66%);
+    border-radius: 50%;
+    margin: 0 3px;
+}
+
+.page span {
+    color: transparent;
+}
+
+.page:not(:first-child):not(:last-child):hover {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 4px hsl(101, 83%, 66%);
+    background-color: hsla(172, 82%, 11%, 0.6);
+}
+
+.page:not(:first-child):not(:last-child):hover span {
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+}

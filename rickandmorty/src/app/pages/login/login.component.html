@@ -1,0 +1,13 @@
+<div class="container">
+    <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+
+        <input type="email" formControlName="email" name="email" placeholder="Correo electrónico">
+        <input type="password" formControlName="password" name="password" placeholder="Contraseña">
+
+        <button class="bt">Entra</button>
+
+        <p class="sign-up">pero antes ... <a routerLink="/signup">Regístrate</a></p>
+    </form>
+
+    <p class="error msg" *ngIf="errorMessage && errorMessage !==''">{{errorMessage}}</p>
+</div>

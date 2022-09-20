@@ -1,0 +1,56 @@
+.container {
+    background-image: url('/assets/background.jpg');
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    flex-flow: column nowrap;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    background-color: hsl(188, 100%, 39%);
+    color: hsl(172, 82%, 11%);
+    border-color: hsl(172, 82%, 11%);
+    box-shadow: 0px 0px 5px 4px hsl(101, 83%, 66%);
+}
+
+.bt {
+    color: hsla(1, 76%, 32%);
+    background-color: hsl(59, 96%, 67%);
+    border-color: hsla(1, 76%, 32%);
+    box-shadow: 0px 0px 20px 7px orange inset;
+}
+
+.sign-up {
+    padding: 5px 0;
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+    background-color: hsla(0, 0%, 50%, 0.877);
+    box-shadow: 0px 0px 5px 4px hsl(101, 83%, 66%);
+}
+
+.sign-up a {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.sign-up a:hover {
+    color: hsl(172, 82%, 11%);
+}
+
+.error {
+    background-color: hsla(0, 100%, 46%, 0.8);
+    width: 300px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}

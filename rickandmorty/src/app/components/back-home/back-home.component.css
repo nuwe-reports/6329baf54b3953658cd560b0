@@ -1,0 +1,33 @@
+.backHome {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.backHome span {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.backHomeImage {
+    width: 70px;
+    height: 70px;
+    display: block;
+    border-radius: 35px;
+    background-image: url('/assets/back.png');
+    background-size: 105px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.blue {
+    color: hsl(172, 82%, 11%);
+}
+
+.white {
+    color: hsl(0, 0%, 100%);
+}

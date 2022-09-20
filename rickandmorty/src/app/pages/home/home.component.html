@@ -1,0 +1,23 @@
+<div class="container">
+    <p class="logout"><span (click)="logout()">Logout</span></p>
+    <div class="wrap">
+        <div class="card" *ngFor="let character of characters">
+            <div class="card-header">
+                <h4><a [routerLink]="['/character-profile', character.id]">{{character.name}}</a></h4>
+                <img src="/assets/icons/heart.png" alt="Icono de un corazon" class="icon" (click)="favorite(character.id, $event)" *ngIf="isInFavorites(character.id)">
+                <img src="/assets/icons/red-heart.png" alt="Icono de un corazon" class="icon" (click)="favorite(character.id, $event)" *ngIf="!isInFavorites(character.id)">
+            </div>
+            <div class="card-body">
+                <a [routerLink]="['/character-profile', character.id]">
+                    <img src="{{character.image}}" alt="Imagen del personaje" class="characterImage">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="pagination">
+        <div class="page" *ngFor="let c of count" (click)="getPage(c)">
+            <span class="num">{{c}}</span>
+        </div>
+
+    </div>
+</div>
