@@ -19,7 +19,7 @@ Instalaciones previas:
 2. [NodeJS](https://nodejs.org/en/).
 3. [Angular CLI](https://angular.io/cli).
 
-Iniciar el servidor Apache y importar la base de datos que se encuentra en *public/rickandmorty.sql*. En el archivo *config/db.js* se pueden cambiar los datos de conexión a la base de datos, en caso que sea necesario.
+Iniciar el servidor Apache y importar la base de datos que se encuentra en la carpeta *public/rickandmorty.sql*. En el archivo *config/db.js* se pueden cambiar los datos de conexión a la base de datos, en caso que sea necesario.
 
 En la carpeta raíz, se encuentra el backEnd cuya instalación de todas las dependencias se debe realizar a través de Npm:
 
